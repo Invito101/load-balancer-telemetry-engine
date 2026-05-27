@@ -1,0 +1,57 @@
+worker1 listening on 127.0.0.1:9101
+[2026-05-01T19:00:45] worker1: active_requests=1 after accept
+[2026-05-01T19:00:45] worker1: processing job: demo_job_1 (sleeping 2 sec)
+[2026-05-01T19:00:47] worker1: job complete
+[2026-05-01T19:00:47] worker1: active_requests=0 after release
+[2026-05-01T19:00:47] worker1: active_requests=1 after accept
+[2026-05-01T19:00:47] worker1: processing job: demo_job_2 (sleeping 2 sec)
+[2026-05-01T19:00:49] worker1: job complete
+[2026-05-01T19:00:49] worker1: active_requests=0 after release
+[2026-05-01T19:00:49] worker1: active_requests=1 after accept
+[2026-05-01T19:00:49] worker1: processing job: concurrent_3 (sleeping 2 sec)
+[2026-05-01T19:00:51] worker1: job complete
+[2026-05-01T19:00:51] worker1: active_requests=0 after release
+[2026-05-01T19:00:51] worker1: active_requests=1 after accept
+[2026-05-01T19:00:51] worker1: processing job: concurrent_2 (sleeping 2 sec)
+[2026-05-01T19:00:53] worker1: job complete
+[2026-05-01T19:00:53] worker1: active_requests=0 after release
+[2026-05-01T19:00:53] worker1: active_requests=1 after accept
+[2026-05-01T19:00:53] worker1: processing job: concurrent_5 (sleeping 2 sec)
+[2026-05-01T19:00:55] worker1: job complete
+[2026-05-01T19:00:55] worker1: active_requests=0 after release
+[2026-05-01T19:00:55] worker1: active_requests=1 after accept
+[2026-05-01T19:00:55] worker1: processing job: concurrent_4 (sleeping 2 sec)
+[2026-05-01T19:00:57] worker1: job complete
+[2026-05-01T19:00:57] worker1: active_requests=0 after release
+[2026-05-01T19:00:57] worker1: active_requests=1 after accept
+[2026-05-01T19:00:57] worker1: processing job: concurrent_7 (sleeping 2 sec)
+[2026-05-01T19:01:01] worker1: job complete
+[2026-05-01T19:01:01] worker1: active_requests=0 after release
+[2026-05-01T19:01:01] worker1: active_requests=1 after accept
+[2026-05-01T19:01:01] worker1: processing job: demo_job_1 (sleeping 2 sec)
+[2026-05-01T19:01:03] worker1: job complete
+[2026-05-01T19:01:03] worker1: active_requests=0 after release
+[2026-05-01T19:01:03] worker1: active_requests=1 after accept
+[2026-05-01T19:01:03] worker1: processing job: demo_job_2 (sleeping 2 sec)
+[2026-05-01T19:01:05] worker1: job complete
+[2026-05-01T19:01:05] worker1: active_requests=0 after release
+[2026-05-01T19:01:05] worker1: active_requests=1 after accept
+[2026-05-01T19:01:05] worker1: processing job: concurrent_3 (sleeping 2 sec)
+[2026-05-01T19:01:07] worker1: job complete
+[2026-05-01T19:01:07] worker1: active_requests=0 after release
+[2026-05-01T19:01:07] worker1: active_requests=1 after accept
+[2026-05-01T19:01:07] worker1: processing job: concurrent_1 (sleeping 2 sec)
+[2026-05-01T19:01:09] worker1: job complete
+[2026-05-01T19:01:09] worker1: active_requests=0 after release
+[2026-05-01T19:01:09] worker1: active_requests=1 after accept
+[2026-05-01T19:01:09] worker1: processing job: concurrent_2 (sleeping 2 sec)
+[2026-05-01T19:01:11] worker1: job complete
+[2026-05-01T19:01:11] worker1: active_requests=0 after release
+[2026-05-01T19:01:11] worker1: active_requests=1 after accept
+[2026-05-01T19:01:11] worker1: processing job: concurrent_7 (sleeping 2 sec)
+[2026-05-01T19:01:13] worker1: job complete
+[2026-05-01T19:01:13] worker1: active_requests=0 after release
+[2026-05-01T19:01:13] worker1: active_requests=1 after accept
+[2026-05-01T19:01:13] worker1: processing job: concurrent_10 (sleeping 2 sec)
+[2026-05-01T19:01:15] worker1: job complete
+[2026-05-01T19:01:15] worker1: active_requests=0 after release

@@ -1,0 +1,49 @@
+load balancer listening on 127.0.0.1:9000 (job slots=2)
+[2026-05-01T19:00:45] queued request user=alice role=user payload=demo_job_1 queued_jobs=1
+[2026-05-01T19:00:45] allocated worker1 to user=alice role=user job=demo_job_1 waiting=0
+[2026-05-01T19:00:47] queued request user=alice role=user payload=demo_job_2 queued_jobs=1
+[2026-05-01T19:00:47] allocated worker1 to user=alice role=user job=demo_job_2 waiting=0
+[2026-05-01T19:00:49] queued request user=alice role=user payload=concurrent_3 queued_jobs=1
+[2026-05-01T19:00:49] allocated worker1 to user=alice role=user job=concurrent_3 waiting=0
+[2026-05-01T19:00:49] queued request user=alice role=user payload=concurrent_1 queued_jobs=1
+[2026-05-01T19:00:49] allocated worker2 to user=alice role=user job=concurrent_1 waiting=0
+[2026-05-01T19:00:49] queued request user=alice role=user payload=concurrent_8 queued_jobs=1
+[2026-05-01T19:00:49] queued request user=alice role=user payload=concurrent_2 queued_jobs=2
+[2026-05-01T19:00:49] queued request user=alice role=user payload=concurrent_10 queued_jobs=3
+[2026-05-01T19:00:49] queued request user=alice role=user payload=concurrent_5 queued_jobs=4
+[2026-05-01T19:00:49] queued request user=alice role=user payload=concurrent_9 queued_jobs=5
+[2026-05-01T19:00:49] queued request user=alice role=user payload=concurrent_4 queued_jobs=6
+[2026-05-01T19:00:49] queued request user=alice role=user payload=concurrent_6 queued_jobs=7
+[2026-05-01T19:00:49] queued request user=alice role=user payload=concurrent_7 queued_jobs=8
+[2026-05-01T19:00:51] allocated worker2 to user=alice role=user job=concurrent_8 waiting=7
+[2026-05-01T19:00:51] allocated worker1 to user=alice role=user job=concurrent_2 waiting=6
+[2026-05-01T19:00:53] allocated worker2 to user=alice role=user job=concurrent_10 waiting=5
+[2026-05-01T19:00:53] allocated worker1 to user=alice role=user job=concurrent_5 waiting=4
+[2026-05-01T19:00:55] allocated worker2 to user=alice role=user job=concurrent_9 waiting=3
+[2026-05-01T19:00:55] allocated worker1 to user=alice role=user job=concurrent_4 waiting=2
+[2026-05-01T19:00:57] allocated worker2 to user=alice role=user job=concurrent_6 waiting=1
+[2026-05-01T19:00:57] allocated worker1 to user=alice role=user job=concurrent_7 waiting=0
+[2026-05-01T19:01:01] queued request user=alice role=user payload=demo_job_1 queued_jobs=1
+[2026-05-01T19:01:01] allocated worker1 to user=alice role=user job=demo_job_1 waiting=0
+[2026-05-01T19:01:03] queued request user=alice role=user payload=demo_job_2 queued_jobs=1
+[2026-05-01T19:01:03] allocated worker1 to user=alice role=user job=demo_job_2 waiting=0
+[2026-05-01T19:01:05] queued request user=alice role=user payload=concurrent_3 queued_jobs=1
+[2026-05-01T19:01:05] allocated worker1 to user=alice role=user job=concurrent_3 waiting=0
+[2026-05-01T19:01:05] queued request user=alice role=user payload=concurrent_4 queued_jobs=1
+[2026-05-01T19:01:05] allocated worker2 to user=alice role=user job=concurrent_4 waiting=0
+[2026-05-01T19:01:05] queued request user=alice role=user payload=concurrent_1 queued_jobs=1
+[2026-05-01T19:01:05] queued request user=alice role=user payload=concurrent_5 queued_jobs=2
+[2026-05-01T19:01:05] queued request user=alice role=user payload=concurrent_2 queued_jobs=3
+[2026-05-01T19:01:05] queued request user=alice role=user payload=concurrent_6 queued_jobs=4
+[2026-05-01T19:01:05] queued request user=alice role=user payload=concurrent_7 queued_jobs=5
+[2026-05-01T19:01:05] queued request user=alice role=user payload=concurrent_9 queued_jobs=6
+[2026-05-01T19:01:05] queued request user=alice role=user payload=concurrent_10 queued_jobs=7
+[2026-05-01T19:01:05] queued request user=alice role=user payload=concurrent_8 queued_jobs=8
+[2026-05-01T19:01:07] allocated worker1 to user=alice role=user job=concurrent_1 waiting=7
+[2026-05-01T19:01:07] allocated worker2 to user=alice role=user job=concurrent_5 waiting=6
+[2026-05-01T19:01:09] allocated worker1 to user=alice role=user job=concurrent_2 waiting=5
+[2026-05-01T19:01:09] allocated worker2 to user=alice role=user job=concurrent_6 waiting=4
+[2026-05-01T19:01:11] allocated worker1 to user=alice role=user job=concurrent_7 waiting=3
+[2026-05-01T19:01:11] allocated worker2 to user=alice role=user job=concurrent_9 waiting=2
+[2026-05-01T19:01:13] allocated worker1 to user=alice role=user job=concurrent_10 waiting=1
+[2026-05-01T19:01:13] allocated worker2 to user=alice role=user job=concurrent_8 waiting=0

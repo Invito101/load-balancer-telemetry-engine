@@ -1,0 +1,41 @@
+worker2 listening on 127.0.0.1:9102
+[2026-05-01T19:00:49] worker2: active_requests=1 after accept
+[2026-05-01T19:00:49] worker2: processing job: concurrent_1 (sleeping 2 sec)
+[2026-05-01T19:00:51] worker2: job complete
+[2026-05-01T19:00:51] worker2: active_requests=0 after release
+[2026-05-01T19:00:51] worker2: active_requests=1 after accept
+[2026-05-01T19:00:51] worker2: processing job: concurrent_8 (sleeping 2 sec)
+[2026-05-01T19:00:53] worker2: job complete
+[2026-05-01T19:00:53] worker2: active_requests=0 after release
+[2026-05-01T19:00:53] worker2: active_requests=1 after accept
+[2026-05-01T19:00:53] worker2: processing job: concurrent_10 (sleeping 2 sec)
+[2026-05-01T19:00:55] worker2: job complete
+[2026-05-01T19:00:55] worker2: active_requests=0 after release
+[2026-05-01T19:00:55] worker2: active_requests=1 after accept
+[2026-05-01T19:00:55] worker2: processing job: concurrent_9 (sleeping 2 sec)
+[2026-05-01T19:00:57] worker2: job complete
+[2026-05-01T19:00:57] worker2: active_requests=0 after release
+[2026-05-01T19:00:57] worker2: active_requests=1 after accept
+[2026-05-01T19:00:57] worker2: processing job: concurrent_6 (sleeping 2 sec)
+[2026-05-01T19:01:01] worker2: job complete
+[2026-05-01T19:01:01] worker2: active_requests=0 after release
+[2026-05-01T19:01:05] worker2: active_requests=1 after accept
+[2026-05-01T19:01:05] worker2: processing job: concurrent_4 (sleeping 2 sec)
+[2026-05-01T19:01:07] worker2: job complete
+[2026-05-01T19:01:07] worker2: active_requests=0 after release
+[2026-05-01T19:01:07] worker2: active_requests=1 after accept
+[2026-05-01T19:01:07] worker2: processing job: concurrent_5 (sleeping 2 sec)
+[2026-05-01T19:01:09] worker2: job complete
+[2026-05-01T19:01:09] worker2: active_requests=0 after release
+[2026-05-01T19:01:09] worker2: active_requests=1 after accept
+[2026-05-01T19:01:09] worker2: processing job: concurrent_6 (sleeping 2 sec)
+[2026-05-01T19:01:11] worker2: job complete
+[2026-05-01T19:01:11] worker2: active_requests=0 after release
+[2026-05-01T19:01:11] worker2: active_requests=1 after accept
+[2026-05-01T19:01:11] worker2: processing job: concurrent_9 (sleeping 2 sec)
+[2026-05-01T19:01:13] worker2: job complete
+[2026-05-01T19:01:13] worker2: active_requests=0 after release
+[2026-05-01T19:01:13] worker2: active_requests=1 after accept
+[2026-05-01T19:01:13] worker2: processing job: concurrent_8 (sleeping 2 sec)
+[2026-05-01T19:01:15] worker2: job complete
+[2026-05-01T19:01:15] worker2: active_requests=0 after release
